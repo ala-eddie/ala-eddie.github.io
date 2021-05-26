@@ -152,13 +152,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 0px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
 
 		a :hover {
 			border-bottom-color: transparent;
+			font-weight: 800;
 		}
 
 	strong, b {
@@ -206,7 +207,7 @@ input, select, textarea {
 
 		h1:hover {
 			transition: 4s;
-			letter-spacing: 1.5rem;
+			letter-spacing: 1.1rem;
 			color:#6bdd6b;
 		}
 
@@ -1312,6 +1313,10 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
+			#header .logo a {
+				border-bottom: hidden;
+			}
+
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
@@ -1355,8 +1360,19 @@ input, select, textarea {
 				overflow: hidden;
 			}
 
+			#header .content a:hover {
+					transition: 0.3s;
+					border-bottom-color: transparent;
+					color:rgba(255, 255, 255, 0.8);
+			}
+
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
+				}
+
+				#header .content .inner .date-main {
+					font-weight: 600;
+					border-bottom: hidden;
 				}
 
 			#header .content p {

@@ -1,133 +1,133 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
 
-<html>
-	<head>
-		<title>Ala & Eddie</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fas fa-seedling fa-3x"></i></a>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Ala &amp; Eddie</h1>
-								<p>16th July 2022</p>
-								<p><a href="https://www.bridgeoflochay.co.uk/" target="_blank">House at the Bridge of Lochay</a></p>
-								<a href="#STD" class="button">Save the Date</a>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#itinerary">Itinerary</a></li>
-								<li><a href="#travel">Travel</a></li>
-								<li><a href="#activities">Activities</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
+<style>
 
-				<!-- Main -->
-					<div id="main">
+body {
 
-						<!-- Save the Date -->
-							<article id="STD">
-								<h2 class="major">Save the Date</h2>
-								<p>We'll be getting married on July 16th 2022, in Killin Scotland</p>
-								<span class="image main"><img src="images/Ala-and-Eddie_Save-The-Date_160722.png" alt="Save the Date" /></span>
-								<p>'tis gonna be a small one, so we'll also throw a party in our hometown for all our loved ones who can't be there to celebrate with us on the day.</p>
+	background-image: url('grunge_patterns.jpg');
+	background-attachment: fixed;
+	color: #333;
+}
 
-							</article>
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
 
-						<!-- Wedding Itinerary -->
-							<article id="itinerary">	
-								<h2 class="major">Wedding Itinerary</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Yeah we're not there yet...</p>
-								<p><a href="#ceremony">Ceremony</a></p>
-							</article>
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.8);
+	text-align: center;
+	margin: auto;
 
-						<!-- Ceremony -->
-							<article id="ceremony">
-								<h2 class="major">Wedding Ceremony</h2>
-								<span class="image main"><img src="images/castle.jpg" alt="" /></span>
-								<p>Also not there yet...</p>
-							</article>
+}
 
-						<!-- Activities -->
-							<article id="activities">
-								<h2 class="major">Weekend Activities</h2>
-								<span class="image main"><img src="images/killin-view.jfif" alt="" /></span>
-								<p>If you're staying with us for the whole weekend, there's plenty to keep us entertained in Killin. We haven't decided what we'll be doing ourselves yet but we're sure there will be some walks. But while we're faffing with bits and bobs why not take yourself mountain biking or kayaking on Loch Tay?</p>
-								<p><a href="https://www.tripadvisor.co.uk/Attractions-g551940-Activities-Killin_Loch_Tay_Loch_Lomond_and_The_Trossachs_National_Park_Scotland.html">Trip Advisor top 10</a></p>
-							</article>
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
 
-						<!-- Travel -->
-						<article id="travel">
-							<h2 class="major">Travel Information</h2>
-							<div class="mapouter">
-								<div class="gmap_canvas">
-									<iframe width="100%" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=house%20at%20bridge%20of%20lochay&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-									<a href="https://www.whatismyip-address.com/divi-discount/"></a>
-									<br>
-									<!-- <style>.mapouter{position:relative;text-align:right;height:700px;width:550px;}</style> -->
-									<!-- <style>.gmap_canvas {overflow:hidden;background:none!important;height:700px;width:550px;}</style> -->
-								</div>
-							</div>
-							<p>More information to follow!</p>
-						</article>
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<p>Quick way to send us an email or a message if you need to</p>
-								<form method="post" action="https://formspree.io/f/mjvjyjzn">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="_replyto" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-							</article>
-					</div>
+::-webkit-input-placeholder {
+   color: #955;
+   text-align: center;
+}
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Alicja & Eddie &lt;3</a>.</p>
-					</footer>
+::-moz-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+</style>
+
+<body>
+
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
 			</div>
+		</div>
+	</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+
+	<script type="text/javascript">
+	"use strict";
+
+
+	function loadPage(pwd) {
+
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/index.html";
+
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+
+
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+
+	</script>
+
+</body>
 </html>
