@@ -705,6 +705,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.main:hover {
+				transition: all .4s ease-in-out;
+				transform: scale(1.15);
+				-moz-transform: scale(1.15);
+				-webkit-transform: scale(1.15);
+				-ms-transform: scale(1.15);
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
